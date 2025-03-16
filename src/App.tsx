@@ -5,6 +5,7 @@ import { Projects } from './components/Projects';
 import { Skills } from './components/Skills';
 import { Education } from './components/Education';
 import { Experience } from './components/Experience';
+import { Involvement } from './components/Involvement';
 import { Contact } from './components/Contact';
 
 export const App = () => {
@@ -17,11 +18,12 @@ export const App = () => {
         <Skills />
         <Education />
         <Experience />
+        <Involvement />
         <Contact />
       </main>
       <footer className="bg-gray-900 text-white py-8">
         <div className="max-w-7xl mx-auto px-6 lg:px-8 text-center">
-          <p>© 2025 Carissa B Bostian. All rights reserved.</p>
+          <p>© 2025 Carissa Bostian. All rights reserved.</p>
         </div>
       </footer>
     </div>

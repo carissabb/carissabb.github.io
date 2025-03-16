@@ -8,10 +8,7 @@ export const Education = () => {
       period: "2024 - 2025",
       description: "Focus in Artificial Intelligence and Data Analytics",
       achievements: [
-        "GPA: 3.8/4.0",
-        "Graduate Research Assistant in Machine Learning Lab",
-        "Teaching Assistant for Data Structures & Algorithms",
-        "Published research paper on AI-powered code analysis"
+        "GPA: 3.8/4.0"
       ]
     },
     {
@@ -20,10 +17,11 @@ export const Education = () => {
       period: "2020 - 2024",
       description: "Minor in Business",
       achievements: [
-        "GPA: 3.74/4.0",
+        "GPA: 3.74 | Magna Cum Laude",
         "Dean's List 2020 - 2024",
-        "Undergraduate Research Assistant",
-        "Computer Science Club Vice President"
+        "National Society of Collegiate Scholars",
+        "Alpha Lambda Delta",
+        "National Society of Leadership & Success"
       ]
     }
   ]

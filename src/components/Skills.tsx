@@ -4,28 +4,32 @@ export const Skills = () => {
   const skillCategories = [
     {
       title: "Programming Languages",
-      skills: ["Python", "JavaScript", "TypeScript", "Java", "C++"]
+      skills: ["C++", "Python", "JavaScript", "TypeScript", "React", "HTML/CSS", "Kotlin", "C", "C#", "Assembly", "Java", "Bash", "XML", "JSON"]
     },
     {
-      title: "Web Technologies",
-      skills: ["React", "Node.js", "HTML/CSS", "REST APIs", "GraphQL"]
-    },
-    {
-      title: "Databases",
-      skills: ["PostgreSQL", "MongoDB", "Redis"]
+      title: "Development Environments",
+      skills: ["VSCode", "Visual Studio", "Eclipse", "Jupyter Notebooks", "Android Studio","Unity"]
     },
     {
       title: "Tools & Frameworks",
-      skills: ["Git", "Docker", "CI/CD", "AWS"]
+      skills: ["VMware Workstation", "GitHub", "Wireshark", "Docker",  "PowerShell", "Linux", "Windows"]
     },
     {
+      title: "Databases",
+      skills: ["Microsoft SQL Server", "MySQL"]
+    }
+        /*{
+      title: "Web Technologies",
+      skills: ["React", "HTML/CSS"]
+    },*/
+    /*{
       title: "Machine Learning",
-      skills: ["TensorFlow", "scikit-learn", "Natural Language Processing"]
+      skills: ["PyTorch", "scikit-learn"]
     },
     {
       title: "Other",
       skills: ["Agile Methodologies", "System Design", "Technical Leadership"]
-    }
+    }*/
   ]
 
   return (

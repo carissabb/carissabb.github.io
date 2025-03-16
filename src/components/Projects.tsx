@@ -3,21 +3,39 @@ import React from 'react';
 export const Projects = () => {
   const projects = [
     {
-      title: "AI-Powered Code Review Assistant",
-      description: "Developed an intelligent code review system using machine learning to automatically analyze code quality, identify potential bugs, and suggest improvements. Integrated with GitHub's API for seamless workflow integration.",
-      technologies: ["Python", "TensorFlow", "Natural Language Processing", "GitHub API"],
+      title: "Mental Health Prediction using SMS",
+      description: "Used NLP embedding to analyze user text messages for uniqueness to identify distinct linguistic patterns and predict Big Five personality traits.",
+      technologies: ["Python"],
       link: "#"
     },
     {
-      title: "Real-time Collaboration Platform",
-      description: "Built a full-stack web application enabling real-time collaboration for software development teams. Features include live code editing, instant messaging, and project management tools.",
-      technologies: ["React", "Node.js", "Socket.io", "PostgreSQL", "Redis"],
+      title: "Immersive VR Privacy & Security Awareness Experience",
+      description: "Developed policy-guided VR rooms using C# in Unity to conduct research on user awareness of data collection.",
+      technologies: ["C#", "Unity", "GitHub"],
       link: "#"
     },
     {
-      title: "Predictive Analytics Dashboard",
-      description: "Created a data visualization dashboard for analyzing and predicting research trends using machine learning algorithms. Implemented interactive charts and customizable reports.",
-      technologies: ["Python", "scikit-learn", "D3.js", "Flask", "MongoDB"],
+      title: "Obesity Prediction and Recommendation Model",
+      description: "Utilized Random Forest Classification to provide personalized fitness and nutritional recommendations to users.",
+      technologies: ["Python", "Jupyter Notebook", "scikit-learn", "GitHub"],
+      link: "https://github.com/carissabb/ML-Final-Project.git"
+    },
+    {
+      title: "Transit App",
+      description: "Developed a bus tracking mobile app in Kotlin integrating Blacksburg Transit’s API, following Agile methodologies.",
+      technologies: ["Kotlin", "XML", "JSON", "Android Studio", "GitHub"],
+      link: "https://github.com/jameswallace106/BTApp.git"
+    },
+    {
+      title: "Bloomberg Tech Lab: Virginia Tech",
+      description: "Collaborated with Bloomberg engineers to build an open-source portfolio manager in Jupyter Notebooks. Enhanced programming and critical thinking skills while receiving valuable mentorship from industry experts.",
+      technologies: ["Python", "Jupyter Notebook", "Docker"],
+      link: "#"
+    },
+    {
+      title: "Minecraft Mod",
+      description: "Created a new ore using Java with full functionality for crafting tools and armor.",
+      technologies: ["Java", "Eclipse"],
       link: "#"
     }
   ]
@@ -28,7 +46,7 @@ export const Projects = () => {
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">Featured Projects</h2>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            A selection of projects that showcase my technical skills and problem-solving abilities.
+            A selection of projects that showcase my technical skills and problem-solving abilities
           </p>
         </div>
         <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-12 lg:mx-0 lg:max-w-none lg:grid-cols-3">

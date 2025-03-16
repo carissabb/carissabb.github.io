@@ -18,7 +18,7 @@ export const Hero = () => {
             Carissa Bostian
           </h1>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            Software Engineer with expertise in full-stack development and a passion for creating impactful solutions.
+            Computer Science student with expertise in AI and Cyber Security, driven by a passion for creating impactful solutions.
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
             <a

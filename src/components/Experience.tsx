@@ -6,37 +6,10 @@ export const Experience = () => {
       company: "Ingersoll Rand",
       role: "IT Audit Intern",
       period: "Summer 2023",
-      description: "Leading development of innovative software solutions and contributing to key technical initiatives. Implementing modern web technologies and best practices for scalable applications.",
+      description: "description",
       achievements: [
-        "Developed and maintained critical web applications using React, Node.js, and PostgreSQL",
-        "Led team of 5 developers in modernizing legacy systems, resulting in 40% improved performance",
-        "Implemented CI/CD pipelines using GitHub Actions, reducing deployment time by 60%",
-        "Mentored junior developers and conducted code reviews to maintain high code quality standards",
-        "Collaborated with stakeholders to gather requirements and deliver solutions that met business needs"
-      ]
-    },
-    {
-      company: "Virginia Tech",
-      role: "Graduate Teaching Assistant",
-      period: "2022 - 2023",
-      description: "Assisted in teaching undergraduate computer science courses while pursuing graduate studies.",
-      achievements: [
-        "Conducted lab sessions and office hours for Data Structures & Algorithms course",
-        "Developed and graded programming assignments using Python and Java",
-        "Mentored 30+ students in understanding complex programming concepts",
-        "Created supplementary learning materials to enhance student understanding"
-      ]
-    },
-    {
-      company: "Virginia Tech",
-      role: "Research Assistant",
-      period: "2021 - 2022",
-      description: "Conducted research in machine learning and data analytics, focusing on predictive modeling.",
-      achievements: [
-        "Implemented machine learning models using Python and scikit-learn",
-        "Analyzed large datasets to identify patterns and trends",
-        "Published research findings in academic conferences",
-        "Collaborated with interdisciplinary teams on research projects"
+        "Increased workplace productivity using Power Automate to program a web scraping bot",
+        "Documented, tested, & assessed auto IT controls in Oracle 11i & R12, MFG/PRO, and SAP systems on AuditBoard"
       ]
     }
   ]
@@ -47,7 +20,7 @@ export const Experience = () => {
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Professional Experience</h2>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            My journey in software development and engineering.
+          My journey in computer science and engineering
           </p>
         </div>
         <div className="mx-auto mt-16 max-w-2xl lg:mx-0">
