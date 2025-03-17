@@ -32,7 +32,7 @@ export const Skills = () => {
     <div className="bg-gray-50 py-24 sm:py-32" id="skills">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">Skills</h2>
+          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Skills</h2>
           <p className="mt-6 text-lg leading-8 text-gray-600">
             Technical expertise and professional competencies
           </p>
