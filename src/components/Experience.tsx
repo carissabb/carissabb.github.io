@@ -6,7 +6,7 @@ export const Experience = () => {
       company: "Ingersoll Rand",
       role: "IT Audit Intern",
       period: "Summer 2023",
-      description: "description",
+      description: "Responsible for assisting in the execution of internal audits, SOX walkthroughs and testing, and special projects and other audit activities including cybersecurity under the supervision of the IT Audit team.",
       achievements: [
         "Increased workplace productivity using Power Automate to program a web scraping bot",
         "Documented, tested, & assessed auto IT controls in Oracle 11i & R12, MFG/PRO, and SAP systems on AuditBoard"

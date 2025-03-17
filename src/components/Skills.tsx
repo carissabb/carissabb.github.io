@@ -8,15 +8,11 @@ export const Skills = () => {
     },
     {
       title: "Development Environments",
-      skills: ["VSCode", "Visual Studio", "Eclipse", "Jupyter Notebooks", "Android Studio","Unity"]
+      skills: ["VSCode", "Visual Studio", "Eclipse", "Jupyter Notebooks", "Android Studio","Unity", "Microsoft SQL Server", "MySQL"]
     },
     {
       title: "Tools & Frameworks",
       skills: ["VMware Workstation", "GitHub", "Wireshark", "Docker",  "PowerShell", "Linux", "Windows"]
-    },
-    {
-      title: "Databases",
-      skills: ["Microsoft SQL Server", "MySQL"]
     }
         /*{
       title: "Web Technologies",

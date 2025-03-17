@@ -3,7 +3,7 @@ import React from 'react';
 export const Projects = () => {
   const projects = [
     {
-      title: "Mental Health Prediction using SMS",
+      title: "Personalized Linguistic Embeddings using SMS History",
       description: "Used NLP embedding to analyze user text messages for uniqueness to identify distinct linguistic patterns and predict Big Five personality traits.",
       technologies: ["Python"],
       link: "#"
@@ -24,7 +24,7 @@ export const Projects = () => {
       title: "Transit App",
       description: "Developed a bus tracking mobile app in Kotlin integrating Blacksburg Transit’s API, following Agile methodologies.",
       technologies: ["Kotlin", "XML", "JSON", "Android Studio", "GitHub"],
-      link: "https://github.com/jameswallace106/BTApp.git"
+      link: "https://github.com/carissabb/BTApp"
     },
     {
       title: "Bloomberg Tech Lab: Virginia Tech",
