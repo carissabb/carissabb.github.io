@@ -32,7 +32,6 @@ export const Experience = () => {
                   <div className="absolute inset-0 rounded-2xl  bg-cover bg-center ring-1 ring-inset ring-gray-900/10" style={{ backgroundImage: `url(${experience.image})` }} />
                   <div className="absolute inset-0 flex items-center justify-center">
                   <div className="absolute inset-0 rounded-2xl bg-black/10" /> 
-
                     {/*<div className="px-4 py-2">
                       <h3 className="text-lg font-semibold leading-6 text-gray-900">
                         {experience.company}
@@ -46,7 +45,8 @@ export const Experience = () => {
                     <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-900">
                       {experience.role}
                     </h3>
-                    <p className="mt-5 text-sm leading-6 text-gray-600">{experience.description}</p>
+                    <p className="text-sm text-gray-500"><em>{experience.period}</em></p>
+                    <p className="mt-5 text-sm leading-6 text-gray-600"><em></em>{experience.description}</p>
                   </div>
                   <div className="mt-6">
                     <ul className="space-y-2">
