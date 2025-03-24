@@ -42,9 +42,9 @@ export const Projects = () => {
 
   return (
     <div className="bg-white py-24 sm:py-32" id="projects">
-      <div className="mx-auto max-w-7xl px-6 lg:px-8 py-10 lg:py-16 xl:py-20">
+      <div className="mx-auto max-w-7xl px-6 lg:px-8 py-10">
         <div className="mx-auto max-w-2xl lg:mx-0">
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">Featured Projects</h2>
+          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent pb-2">Featured Projects</h2>
           <p className="mt-6 text-lg leading-8 text-gray-600">
             A selection of projects that showcase my technical skills and problem-solving abilities
           </p>
