@@ -9,7 +9,8 @@ export const Education = () => {
       description: "Focus in Artificial Intelligence and Data Analytics",
       achievements: [
         "GPA: 3.8/4.0"
-      ]
+      ],
+      image: "https://www.vt.edu/content/vt_edu/en/admissions/undergraduate/visit/campus-photo-tour/_jcr_content/content/adaptiveimage_926934412.transform/m-medium/image.jpg"
     },
     {
       school: "Liberty University",
@@ -22,7 +23,8 @@ export const Education = () => {
         "National Society of Collegiate Scholars",
         "Alpha Lambda Delta",
         "National Society of Leadership & Success"
-      ]
+      ],
+      image: "https://dcfwfuaf91uza.cloudfront.net/residential/wp-content/uploads/Explore-these-picturesque-locations-around-Liberty-Universitys-Campus.jpg"
     }
   ]
 
@@ -40,13 +42,14 @@ export const Education = () => {
             {education.map((edu, idx) => (
               <article key={idx} className="relative isolate flex flex-col gap-8 lg:flex-row bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow">
                 <div className="relative aspect-[16/9] sm:aspect-[2/1] lg:aspect-square lg:w-64 lg:shrink-0">
-                  <div className="absolute inset-0 rounded-2xl bg-gradient-to-r from-indigo-50 to-purple-50 ring-1 ring-inset ring-gray-900/10" />
+                  <div className="absolute inset-0 rounded-2xl bg-cover bg-center ring-1 ring-inset ring-gray-900/10"  style={{ backgroundImage: `url(${edu.image})` }} />
+                  <div className="absolute inset-0 rounded-2xl bg-black/20" /> 
                   <div className="absolute inset-0 flex items-center justify-center">
                     <div className="px-4 py-2 text-center">
-                      <h3 className="text-lg font-semibold leading-6 text-gray-900">
+                      <h3 className="text-lg font-semibold leading-6 text-white">
                         {edu.school}
                       </h3>
-                      <p className="text-sm text-gray-500">{edu.period}</p>
+                      <p className="text-sm text-gray-200">{edu.period}</p>
                     </div>
                   </div>
                 </div>
