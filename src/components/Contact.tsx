@@ -1,4 +1,5 @@
 import React from 'react';
+import githubImg from '../assets/github.svg';
 
 export const Contact = () => {
   return (
@@ -18,7 +19,7 @@ export const Contact = () => {
             </a>
             <div className="flex gap-4">
               <a
-                href="http://www.linkedin.com/in/carissabostian/"
+                href="http://www.linkedin.com/in/carissabostian/" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-lg font-semibold text-indigo-600 hover:text-indigo-500"
@@ -36,7 +37,7 @@ export const Contact = () => {
                 className="text-lg font-semibold text-indigo-600 hover:text-indigo-500"
               >
                 <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
+                  src="src/assets/github.svg"
                   alt="GitHub Logo"
                   className="w-6 h-6 inline-block"
                 />

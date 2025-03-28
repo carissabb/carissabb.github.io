@@ -1,4 +1,7 @@
 import React from 'react';
+import virginiaTechImage from '../assets/virginiaTech.jpg'; 
+import libertyImage from '../assets/liberty.jpg'; 
+
 
 export const Education = () => {
   const education = [
@@ -10,7 +13,7 @@ export const Education = () => {
       achievements: [
         "GPA: 3.8/4.0"
       ],
-      image: "https://www.vt.edu/content/vt_edu/en/admissions/undergraduate/visit/campus-photo-tour/_jcr_content/content/adaptiveimage_926934412.transform/m-medium/image.jpg"
+      image: virginiaTechImage
     },
     {
       school: "Liberty University",
@@ -24,7 +27,7 @@ export const Education = () => {
         "Alpha Lambda Delta",
         "National Society of Leadership & Success"
       ],
-      image: "https://dcfwfuaf91uza.cloudfront.net/residential/wp-content/uploads/Explore-these-picturesque-locations-around-Liberty-Universitys-Campus.jpg"
+      image: libertyImage
     }
   ]
 

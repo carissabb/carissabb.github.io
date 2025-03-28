@@ -1,4 +1,18 @@
 import React from 'react';
+import cppImg from '../assets/cpp.svg';
+import pythonImg from '../assets/python.svg';
+import jsImg from '../assets/javascript.svg';
+import javaImg from '../assets/java.svg';
+import unityImg from '../assets/unity.svg';
+import cSharpImg from '../assets/csharp.svg';
+import githubImg from '../assets/github.svg';
+import jupyterImg from '../assets/jupyter.svg';
+import kotlinImg from '../assets/kotlin.svg';
+import xmlImg from '../assets/xml.svg';
+import androidStudioImg from '../assets/android-studio.svg';
+import dockerImg from '../assets/docker.svg';
+import eclipseImg from '../assets/eclipse.svg';
+
 
 export const Projects = () => {
   const projects = [
@@ -17,13 +31,13 @@ export const Projects = () => {
     {
       title: "Obesity Prediction and Recommendation Model",
       description: "Utilized Random Forest Classification to provide personalized fitness and nutritional recommendations to users.",
-      technologies: ["Python", "Jupyter Notebook", "scikit-learn", "GitHub"],
+      technologies: ["Python", "Jupyter Notebook", "GitHub"],
       link: "https://github.com/carissabb/ML-Final-Project.git"
     },
     {
       title: "Transit App",
       description: "Developed a bus tracking mobile app in Kotlin integrating Blacksburg Transit’s API, following Agile methodologies.",
-      technologies: ["Kotlin", "XML", "JSON", "Android Studio", "GitHub"],
+      technologies: ["Kotlin", "XML", "Android Studio", "GitHub"],
       link: "https://github.com/carissabb/BTApp"
     },
     {
@@ -39,6 +53,24 @@ export const Projects = () => {
       link: "#"
     }
   ]
+
+
+  const skillImages: { [key: string]: string } = {
+    "C++": cppImg,
+    "Python": pythonImg,
+    "JavaScript": jsImg,
+    "Java": javaImg,
+    "Unity": unityImg,
+    "C#": cSharpImg,
+    "GitHub": githubImg,
+    "Jupyter Notebook": jupyterImg,
+    "Kotlin": kotlinImg,
+    "XML": xmlImg,
+    "Android Studio": androidStudioImg,
+    "Docker": dockerImg,
+    "Eclipse": eclipseImg,
+  };
+  
 
   return (
     <div className="bg-white py-24 sm:py-32" id="projects">
@@ -57,14 +89,17 @@ export const Projects = () => {
                   {project.technologies.map((tech, techIdx) => (
                     <span
                       key={techIdx}
-                      className="inline-flex items-center rounded-full bg-gradient-to-r from-indigo-50 to-purple-50 px-2 py-1 text-xs font-medium text-indigo-700 ring-1 ring-inset ring-indigo-700/10"
+                      className="inline-flex items-center"
                     >
-                      {tech}
+                      {skillImages[tech] && (
+                      <img src={skillImages[tech]} alt={tech} className="w-7 h-9 mb-1" />
+                    )}
+                     
                     </span>
                   ))}
                 </div>
               </div>
-              <div className="group relative mt-6">
+              <div className="group relative mt-1">
                 <h3 className="text-lg font-semibold leading-6 text-gray-900 group-hover:text-indigo-600">
                   <a href={project.link}>
                     <span className="absolute inset-0" />
