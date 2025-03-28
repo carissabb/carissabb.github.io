@@ -31,9 +31,7 @@ export const Experience = () => {
               <article key={idx} className="relative isolate flex flex-col gap-8 lg:flex-row">
                 <div className="relative aspect-[16/9] sm:aspect-[2/1] lg:aspect-square lg:w-64 lg:shrink-0">
                   <div className="absolute inset-0 rounded-2xl  bg-cover bg-center ring-1 ring-inset ring-gray-900/10" style={{ backgroundImage: `url(${experience.image})` }} />
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <div className="absolute inset-0 rounded-2xl bg-black/10" /> 
-                  </div>
+                  <div className="absolute inset-0 flex items-center justify-center"></div>
                 </div>
                 <div>
                   <div className="group relative max-w-xl">
