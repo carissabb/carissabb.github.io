@@ -1,4 +1,5 @@
 import React from 'react';
+import ingersollRandImage from '../assets/ingersoll-rand.png'; 
 
 export const Experience = () => {
   const experiences = [
@@ -11,7 +12,7 @@ export const Experience = () => {
         "Increased workplace productivity using Power Automate to program a web scraping bot",
         "Documented, tested, & assessed auto IT controls in Oracle 11i & R12, MFG/PRO, and SAP systems on AuditBoard"
       ],
-      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLaxqmavMdrWoPvC8KCO-4PQ5l_CFUaX22nw&s"
+      image: ingersollRandImage
     }
   ]
 
@@ -31,13 +32,7 @@ export const Experience = () => {
                 <div className="relative aspect-[16/9] sm:aspect-[2/1] lg:aspect-square lg:w-64 lg:shrink-0">
                   <div className="absolute inset-0 rounded-2xl  bg-cover bg-center ring-1 ring-inset ring-gray-900/10" style={{ backgroundImage: `url(${experience.image})` }} />
                   <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="absolute inset-0 rounded-2xl bg-black/10" /> 
-                    {/*<div className="px-4 py-2">
-                      <h3 className="text-lg font-semibold leading-6 text-gray-900">
-                        {experience.company}
-                      </h3>
-                      <p className="text-sm text-gray-500">{experience.period}</p>
-                    </div> */}
+                    <div className="absolute inset-0 rounded-2xl bg-black/10" /> 
                   </div>
                 </div>
                 <div>
