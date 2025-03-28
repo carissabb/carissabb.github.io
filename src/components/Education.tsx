@@ -37,8 +37,8 @@ export const Education = () => {
             Academic background and achievements
           </p>
         </div>
-        <div className="mx-auto mt-16 max-w-2xl lg:mx-0">
-          <div className="space-y-16">
+        <div className="mx-auto mt-16 max-w-2xl lg:max-w-none">
+          <div className="space-y-16 lg:space-y-0 lg:grid lg:grid-cols-2 lg:gap-8">
             {education.map((edu, idx) => (
               <article key={idx} className="relative isolate flex flex-col gap-8 lg:flex-row bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow">
                 <div className="relative aspect-[16/9] sm:aspect-[2/1] lg:aspect-square lg:w-64 lg:shrink-0">

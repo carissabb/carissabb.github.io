@@ -14,18 +14,6 @@ export const Skills = () => {
       title: "Tools & Frameworks",
       skills: ["VMware Workstation", "GitHub", "Wireshark", "Docker",  "PowerShell", "Linux", "Windows"]
     }
-        /*{
-      title: "Web Technologies",
-      skills: ["React", "HTML/CSS"]
-    },*/
-    /*{
-      title: "Machine Learning",
-      skills: ["PyTorch", "scikit-learn"]
-    },
-    {
-      title: "Other",
-      skills: ["Agile Methodologies", "System Design", "Technical Leadership"]
-    }*/
   ]
 
   return (
@@ -43,14 +31,16 @@ export const Skills = () => {
               <div key={idx} className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow border border-gray-100">
                 <h3 className="text-lg font-semibold text-gray-900 mb-4">{category.title}</h3>
                 <div className="flex flex-wrap gap-2">
+
                   {category.skills.map((skill, skillIdx) => (
                     <span
                       key={skillIdx}
-                      className="inline-flex items-center rounded-md bg-gradient-to-r from-indigo-50 to-purple-50 px-2 py-1 text-sm font-medium text-indigo-700 ring-1 ring-inset ring-indigo-700/10"
+                      className="flex flex-col items-center rounded-md bg-gradient-to-r from-indigo-50 to-purple-50 px-2 py-1 text-sm font-medium text-indigo-700 ring-1 ring-inset ring-indigo-700/10"
                     >
                       {skill}
                     </span>
                   ))}
+
                 </div>
               </div>
             ))}
@@ -60,3 +50,4 @@ export const Skills = () => {
     </div>
   )
 }
+
