@@ -1,5 +1,6 @@
 import React from 'react';
 import githubImg from '../assets/github.svg';
+import linkedinImg from '../assets/linkedin.svg';
 
 export const Contact = () => {
   return (
@@ -25,7 +26,7 @@ export const Contact = () => {
                 className="text-lg font-semibold text-indigo-600 hover:text-indigo-500"
               >
                 <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg"
+                  src={linkedinImg}
                   alt="LinkedIn Logo"
                   className="w-6 h-6 inline-block"
                 />
@@ -37,7 +38,7 @@ export const Contact = () => {
                 className="text-lg font-semibold text-indigo-600 hover:text-indigo-500"
               >
                 <img
-                  src="src/assets/github.svg"
+                  src={githubImg}
                   alt="GitHub Logo"
                   className="w-6 h-6 inline-block"
                 />
