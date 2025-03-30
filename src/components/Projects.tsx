@@ -87,19 +87,23 @@ export const Projects = () => {
               <div className="flex items-center gap-x-4 text-xs w-full">
                 <div className="flex flex-wrap gap-2">
                   {project.technologies.map((tech, techIdx) => (
-                    <span
-                      key={techIdx}
-                      className="inline-flex items-center"
-                    >
+                    <span key={techIdx} className="relative inline-flex items-center justify-center w-10 h-10">
                       {skillImages[tech] && (
-                      <img src={skillImages[tech]} alt={tech} className="w-7 h-9 mb-1" />
-                    )}
-                     
+                        <>
+                          <div className="absolute bottom-0 w-6 h-1 rounded-full bg-black/50 blur-sm opacity-50"></div>
+                          <img
+                            src={skillImages[tech]}
+                            alt={tech}
+                            className="relative w-7 h-9"
+                          />
+                        </>
+                      )}
                     </span>
+
                   ))}
                 </div>
               </div>
-              <div className="group relative mt-1">
+              <div className="group relative mt-3">
                 <h3 className="text-lg font-semibold leading-6 text-gray-900 group-hover:text-indigo-600">
                   <a href={project.link}>
                     <span className="absolute inset-0" />
