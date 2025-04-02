@@ -17,12 +17,6 @@ import eclipseImg from '../assets/eclipse.svg';
 export const Projects = () => {
   const projects = [
     {
-      title: "Personalized Linguistic Embeddings using SMS History",
-      description: "Used NLP embedding to analyze user text messages for uniqueness to identify distinct linguistic patterns and predict Big Five personality traits.",
-      technologies: ["Python"],
-      link: "#"
-    },
-    {
       title: "Immersive VR Privacy & Security Awareness Experience",
       description: "Developed policy-guided VR rooms using C# in Unity to conduct research on user awareness of data collection.",
       technologies: ["C#", "Unity", "GitHub"],
