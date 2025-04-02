@@ -11,7 +11,7 @@ export const Education = () => {
       period: "2024 - 2025",
       description: "Focus in Artificial Intelligence and Data Analytics",
       achievements: [
-        "GPA: 3.8/4.0"
+        "GPA: 3.8"
       ],
       image: virginiaTechImage
     },
