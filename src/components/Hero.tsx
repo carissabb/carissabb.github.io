@@ -17,9 +17,15 @@ export const Hero = () => {
           <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
             Carissa Bostian
           </h1>
-          <p className="mt-6 text-lg leading-8 text-gray-600">
-            Computer Science student with expertise in AI and Cyber Security, driven by a passion for creating impactful solutions.
-          </p>
+          <div className="text-center max-w-2xl mx-auto mt-6">
+            <p className="text-lg font-semibold text-gray-700">
+              Computer Science student with expertise in AI and Cyber Security, driven by a passion for creating impactful solutions.
+            </p>
+            <p className="mt-3 text-md text-gray-600">
+              Seeking a summer internship or full-time opportunity to leverage my skills in real-world projects and collaborate with innovative teams.
+            </p>
+          </div>
+
           <div className="mt-10 flex items-center justify-center gap-x-6">
             <a
               href="mailto:carissab@vt.edu"
