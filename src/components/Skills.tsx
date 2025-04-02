@@ -4,11 +4,11 @@ export const Skills = () => {
   const skillCategories = [
     {
       title: "Programming Languages",
-      skills: ["C++", "Python", "JavaScript", "TypeScript", "React", "HTML/CSS", "Kotlin", "C", "C#", "Assembly", "Java", "Bash", "XML", "JSON"]
+      skills: ["C++", "Python", "JavaScript", "TypeScript", "React", "HTML/CSS", "Kotlin", "C", "C#", "SQL", "Assembly", "Java", "Bash", "XML"]
     },
     {
       title: "Development Environments",
-      skills: ["VSCode", "Visual Studio", "Eclipse", "Jupyter Notebooks", "Android Studio","Unity", "Microsoft SQL Server", "MySQL"]
+      skills: ["VSCode", "Visual Studio", "Eclipse", "Jupyter Notebooks", "Android Studio", "Unity", "Microsoft SQL Server", "MySQL"]
     },
     {
       title: "Tools & Frameworks",
