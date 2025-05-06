@@ -1,5 +1,4 @@
 import React from 'react';
-import { Parallax } from 'react-scroll-parallax';
 
 export const Skills = () => {
   const skillCategories = [
@@ -20,7 +19,6 @@ export const Skills = () => {
   return (
     <div className="relative bg-gray-50 py-24 sm:py-32" id="skills">
       {/* Background Gradient - Top */}
-      <Parallax speed={-20}>
         <div className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80">
           <div
             className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-indigo-200 to-purple-200 opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
@@ -30,10 +28,8 @@ export const Skills = () => {
             }}
           />
         </div>
-      </Parallax>
 
       {/* Content */}
-      <Parallax speed={-10}>
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Skills</h2>
@@ -44,7 +40,6 @@ export const Skills = () => {
           <div className="mx-auto mt-16 max-w-7xl">
             <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
               {skillCategories.map((category, idx) => (
-                <Parallax key={idx} speed={5}>
                   <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow border border-gray-100 flex flex-col items-start h-[200px]">
                     <h3 className="text-lg font-semibold text-gray-900 mb-4">{category.title}</h3>
                     <div className="flex flex-wrap gap-2">
@@ -58,15 +53,12 @@ export const Skills = () => {
                       ))}
                     </div>
                   </div>
-                </Parallax>
               ))}
             </div>
           </div>
         </div>
-      </Parallax>
 
       {/* Background Gradient - Bottom */}
-      <Parallax speed={10}>
         <div className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]">
           <div
             className="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-indigo-200 to-purple-200 opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
@@ -76,7 +68,6 @@ export const Skills = () => {
             }}
           />
         </div>
-      </Parallax>
     </div>
   );
 };

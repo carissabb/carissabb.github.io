@@ -1,5 +1,4 @@
 import React from 'react';
-import { Parallax } from 'react-scroll-parallax';
 import cybervtImg from '../assets/cybervt.jpg';
 import girlsWhoCodeImg from '../assets/gwc.png';
 import libertyImg from '../assets/libertyLogo.png';
@@ -46,8 +45,6 @@ export const Involvement = () => {
 
   return (
     <div className="relative bg-white py-24 sm:py-32" id="involvement">
-      {/* Background Gradient - Top */}
-      <Parallax speed={-20}>
         <div className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80">
           <div
             className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-indigo-200 to-purple-200 opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
@@ -57,10 +54,6 @@ export const Involvement = () => {
             }}
           />
         </div>
-      </Parallax>
-
-      {/* Content */}
-      <Parallax speed={-10}>
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
@@ -73,7 +66,6 @@ export const Involvement = () => {
           <div className="mx-auto mt-16 max-w-7xl">
             <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
               {involvement.map((involvement, idx) => (
-                <Parallax key={idx} speed={5}>
                   <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow border border-gray-100 flex items-center justify-between">
                     <div>
                       <h3 className="text-lg font-semibold text-gray-900">{involvement.title}</h3>
@@ -93,15 +85,10 @@ export const Involvement = () => {
                       className="w-16 h-16 object-contain rounded-lg"
                     />
                   </div>
-                </Parallax>
               ))}
             </div>
           </div>
         </div>
-      </Parallax>
-
-      {/* Background Gradient - Bottom */}
-      <Parallax speed={10}>
         <div className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]">
           <div
             className="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-indigo-200 to-purple-200 opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
@@ -111,7 +98,6 @@ export const Involvement = () => {
             }}
           />
         </div>
-      </Parallax>
     </div>
   );
 };
