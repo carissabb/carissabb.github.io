@@ -1,10 +1,8 @@
 import React from 'react';
-import { Parallax } from 'react-scroll-parallax';
 
 export const Hero = () => {
   return (
     <div className="relative isolate px-6 pt-14 lg:px-8" id="about">
-      <Parallax speed={-5}>
         <div className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80">
           <div
             className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
@@ -14,15 +12,11 @@ export const Hero = () => {
             }}
           />
         </div>
-      </Parallax>
       <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
         <div className="text-center">
-          <Parallax speed={-2}>
           <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
             Carissa Bostian
           </h1>
-          </Parallax>
-          <Parallax speed={2}>
           <div className="text-center max-w-2xl mx-auto mt-6">
             <p className="text-lg font-semibold text-gray-700">
               Computer Science student with expertise in AI and Cyber Security, driven by a passion for creating impactful solutions.
@@ -31,7 +25,6 @@ export const Hero = () => {
               Seeking a summer internship or full-time opportunity to leverage my skills in real-world projects and collaborate with innovative teams.
             </p>
           </div>
-          </Parallax>
           <div className="mt-10 flex items-center justify-center gap-x-6">
             <a
               href="mailto:carissab@vt.edu"

@@ -1,5 +1,4 @@
 import React from 'react';
-// import { Parallax } from 'react-scroll-parallax';
 import cppImg from '../assets/cpp.svg';
 import pythonImg from '../assets/python.svg';
 import jsImg from '../assets/javascript.svg';
@@ -73,8 +72,6 @@ export const Projects = () => {
 
   return (
     <div className="relative bg-white py-24 sm:py-32" id="projects">
-      {/* Background Gradient */}
-      {/* <Parallax speed={-20}> */}
         <div className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80">
           <div
             className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-indigo-200 to-purple-200 opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
@@ -84,9 +81,6 @@ export const Projects = () => {
             }}
           />
         </div>
-      {/* </Parallax> */}
-
-      {/* <Parallax speed={10}> */}
         <div className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]">
           <div
             className="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-indigo-200 to-purple-200 opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
@@ -96,10 +90,6 @@ export const Projects = () => {
             }}
           />
         </div>
-      {/* </Parallax> */}
-
-      {/* Content */}
-      {/* <Parallax speed={-10}> */}
         <div className="mx-auto max-w-7xl px-6 lg:px-8 py-10">
           <div className="mx-auto max-w-2xl lg:mx-0">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent pb-2">
@@ -111,7 +101,6 @@ export const Projects = () => {
           </div>
           <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-12 lg:mx-0 lg:max-w-none lg:grid-cols-3">
             {projects.map((project, idx) => (
-              // <Parallax key={idx} speed={5}>
                 <article
                   className="flex flex-col items-start bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow border border-gray-100 min-h-[200px] lg:min-h-[300px]"
                 >
@@ -151,11 +140,9 @@ export const Projects = () => {
                     </a>
                   </div>
                 </article>
-              // </Parallax>
             ))}
           </div>
         </div>
-      {/* </Parallax> */}
     </div>
   );
 };
