@@ -3,6 +3,7 @@ import cybervtImg from '../assets/cybervt.jpg';
 import girlsWhoCodeImg from '../assets/gwc.png';
 import libertyImg from '../assets/libertyLogo.png';
 import luCyberImg from '../assets/luCyber.png';
+import summitCTFImg from '../assets/summitCTF.jpeg';
 
 export const Involvement = () => {
   const involvement = [
@@ -13,6 +14,14 @@ export const Involvement = () => {
       location: "Blacksburg, VA",
       period: "2024 - Current",
     },
+    {
+      title: "SummitCTF Competition",
+      role: "Team Member: 3rd Place",
+      association: "Virginia Tech",
+      location: "Blacksburg, VA",
+      period: "April 12-13, 2025",
+    },
+
     {
       title: "Girls Who Code LU",
       role: "President/Founder",
@@ -41,6 +50,7 @@ export const Involvement = () => {
     "Girls Who Code LU": girlsWhoCodeImg,
     "C++ Tutor": libertyImg,
     "Cybersecurity Club": luCyberImg,
+    "SummitCTF Competition": summitCTFImg,
   };
 
   return (
@@ -79,11 +89,21 @@ export const Involvement = () => {
                         {involvement.association} | {involvement.location}
                       </p>
                     </div>
+                    {involvement.title === "SummitCTF Competition" ? (
+                    <a href="https://ctftime.org/event/2662/" target="_blank" rel="noopener noreferrer">
+                      <img
+                        src={involvementImages[involvement.title]}
+                        alt={`${involvement.title} Logo`}
+                        className="w-16 h-16 object-contain rounded-lg"
+                      />
+                    </a>
+                  ) : (
                     <img
                       src={involvementImages[involvement.title]}
                       alt={`${involvement.title} Logo`}
                       className="w-16 h-16 object-contain rounded-lg"
                     />
+                  )}
                   </div>
               ))}
             </div>

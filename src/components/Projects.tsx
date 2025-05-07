@@ -124,7 +124,7 @@ export const Projects = () => {
                   </div>
                   <div className="group relative mt-3">
                     <h3 className="text-lg font-semibold leading-6 text-gray-900 group-hover:text-indigo-600">
-                      <a href={project.link}>
+                      <a href={project.link} target="_blank" rel="noopener noreferrer">
                         <span className="absolute inset-0" />
                         {project.title}
                       </a>
@@ -134,6 +134,7 @@ export const Projects = () => {
                   <div className="mt-6 pt-4 border-t border-gray-100 w-full">
                     <a
                       href={project.link}
+                      target="_blank" rel="noopener noreferrer"
                       className="inline-flex items-center text-sm font-semibold leading-6 text-indigo-600 hover:text-indigo-500"
                     >
                       View Project <span aria-hidden="true" className="ml-1">→</span>
