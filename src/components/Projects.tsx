@@ -26,7 +26,7 @@ export const Projects = () => {
       title: "Immersive VR Privacy & Security Awareness Experience",
       description: "Developed policy-guided VR rooms using C# in Unity to conduct research on user awareness of data collection.",
       technologies: ["C#", "Unity", "GitHub"],
-      link: "https://github.com/carissabb/Immersive-VR-Privacy-Security"
+      link: "https://github.com/Mughees2001/Immersive-Privacy-and-Security-Awareness"
     },
     {
       title: "Obesity Prediction and Recommendation Model",
