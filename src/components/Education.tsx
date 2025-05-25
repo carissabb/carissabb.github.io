@@ -10,7 +10,7 @@ export const Education = () => {
       period: "2024 - 2025",
       description: "Focus in Artificial Intelligence and Data Analytics",
       achievements: [
-        "GPA: 3.8",
+        "GPA: 3.91",
         "Machine Learning (Scikit-learn, TensorFlow, PyTorch)",
         "Deep Learning (CNNs, RNNs)",
         "Agile Software Development",
