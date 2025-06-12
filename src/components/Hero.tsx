@@ -22,7 +22,7 @@ export const Hero = () => {
               Computer Science student with expertise in AI and Cyber Security, driven by a passion for creating impactful solutions.
             </p>
             <p className="mt-3 text-md text-gray-600">
-              Seeking a summer internship or full-time opportunity to leverage my skills in real-world projects and collaborate with innovative teams.
+              Seeking a full-time opportunity to leverage my skills in real-world projects and collaborate with innovative teams.
             </p>
           </div>
           <div className="mt-10 flex items-center justify-center gap-x-6">
