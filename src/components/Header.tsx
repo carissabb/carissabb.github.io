@@ -1,4 +1,3 @@
-import React from 'react';
 import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
@@ -9,7 +8,7 @@ const navigation = [
   { name: 'Skills', href: '#skills' },
   { name: 'Education', href: '#education' },
   { name: 'Experience', href: '#experience' },
-  { name: 'Extracurriculars', href: '#involvement' },
+  { name: 'Extracurriculars', href: '#extracurriculars' },
   { name: 'Contact', href: '#contact' },
 ]
 

@@ -1,4 +1,3 @@
-import React from 'react';
 import virginiaTechImage from '../assets/virginiaTech.jpg'; 
 import libertyImage from '../assets/liberty.jpg'; 
 
@@ -56,7 +55,7 @@ export const Education = () => {
           </div>
           <div className="mx-auto mt-16 max-w-2xl lg:max-w-none">
             <div className="space-y-16 lg:space-y-0 lg:grid lg:grid-cols-2 lg:gap-8">
-              {education.map((edu, idx) => (
+              {education.map((edu) => (
                   <article className="relative isolate flex flex-col gap-8 lg:flex-row bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow min-h-[300px] lg:min-h-[400px]">
                     <div className="relative aspect-[16/9] sm:aspect-[2/1] lg:aspect-square lg:w-64 lg:shrink-0">
                       <div

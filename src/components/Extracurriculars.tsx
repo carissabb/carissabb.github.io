@@ -1,4 +1,3 @@
-import React from 'react';
 import cybervtImg from '../assets/cybervt.jpg';
 import girlsWhoCodeImg from '../assets/gwc.png';
 import libertyImg from '../assets/libertyLogo.png';
@@ -9,8 +8,8 @@ import vtechImg from '../assets/vtLogo.png';
 import bbergPoster from '../assets/Bloomberg_Poster.png';
 
 
-export const Involvement = () => {
-  const involvement = [
+export const Extracurriculars = () => {
+  const extracurriculars = [
     {
       title: "Cybersecurity for Industry 4.0 Workshop",
       role: "Workshop Participant",
@@ -73,7 +72,7 @@ export const Involvement = () => {
   };
 
   return (
-    <div className="relative bg-white py-24 sm:py-32" id="involvement">
+    <div className="relative bg-white py-24 sm:py-32" id="extracurriculars">
         <div className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80">
           <div
             className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-indigo-200 to-purple-200 opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
@@ -89,45 +88,45 @@ export const Involvement = () => {
               Extracurriculars
             </h2>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              Leadership and volunteer activities
+              Leadership, academic, and community involvement
             </p>
           </div>
           <div className="mx-auto mt-16 max-w-7xl">
             <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
-              {involvement.map((involvement, idx) => (
+              {extracurriculars.map((extracurriculars) => (
                   <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow border border-gray-100 flex items-center justify-between">
                     <div>
-                      <h3 className="text-lg font-semibold text-gray-900">{involvement.title}</h3>
+                      <h3 className="text-lg font-semibold text-gray-900">{extracurriculars.title}</h3>
                       <div className="px-4 py-2">
                         <h3 className="text-sm font-semibold leading-6 text-gray-900">
-                          <em>{involvement.role}</em>
+                          <em>{extracurriculars.role}</em>
                         </h3>
-                        <p className="text-sm text-gray-500">{involvement.period}</p>
+                        <p className="text-sm text-gray-500">{extracurriculars.period}</p>
                       </div>
                       <p className="text-sm text-gray-500">
-                        {involvement.association} | {involvement.location}
+                        {extracurriculars.association} | {extracurriculars.location}
                       </p>
                     </div>
-                    {involvement.title === "SummitCTF Competition" ? (
+                    {extracurriculars.title === "SummitCTF Competition" ? (
                     <a href="https://ctftime.org/event/2662/" target="_blank" rel="noopener noreferrer">
                       <img
-                        src={involvementImages[involvement.title]}
-                        alt={`${involvement.title} Logo`}
+                        src={involvementImages[extracurriculars.title]}
+                        alt={`${extracurriculars.title} Logo`}
                         className="w-16 h-16 object-contain rounded-lg"
                       />
                     </a>
-                    ) : involvement.title === "Bloomberg Tech Lab: Virginia Tech" ? (
+                    ) : extracurriculars.title === "Bloomberg Tech Lab: Virginia Tech" ? (
                       <a href={bbergPoster} target="_blank" rel="noopener noreferrer">
                         <img
-                          src={involvementImages[involvement.title]}
-                          alt={`${involvement.title} Logo`}
+                          src={involvementImages[extracurriculars.title]}
+                          alt={`${extracurriculars.title} Logo`}
                           className="w-16 h-16 object-contain rounded-lg"
                         />
                       </a>
                     ) : (
                     <img
-                      src={involvementImages[involvement.title]}
-                      alt={`${involvement.title} Logo`}
+                      src={involvementImages[extracurriculars.title]}
+                      alt={`${extracurriculars.title} Logo`}
                       className="w-16 h-16 object-contain rounded-lg"
                     />
                   )}

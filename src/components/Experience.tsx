@@ -1,4 +1,3 @@
-import React from 'react';
 import ingersollRandImage from '../assets/ingersoll-rand.png'; 
 
 export const Experience = () => {

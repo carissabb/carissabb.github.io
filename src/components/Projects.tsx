@@ -1,4 +1,3 @@
-import React from 'react';
 import cppImg from '../assets/cpp.svg';
 import pythonImg from '../assets/python.svg';
 import jsImg from '../assets/javascript.svg';
@@ -94,7 +93,7 @@ export const Projects = () => {
             </p>
           </div>
           <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-12 lg:mx-0 lg:max-w-none lg:grid-cols-3">
-            {projects.map((project, idx) => (
+            {projects.map((project) => (
                 <article
                   className="flex flex-col items-start bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow border border-gray-100 min-h-[200px] lg:min-h-[300px]"
                 >

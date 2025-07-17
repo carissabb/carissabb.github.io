@@ -1,4 +1,3 @@
-import React from 'react';
 
 export const Skills = () => {
   const skillCategories = [
@@ -39,7 +38,7 @@ export const Skills = () => {
           </div>
           <div className="mx-auto mt-16 max-w-7xl">
             <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
-              {skillCategories.map((category, idx) => (
+              {skillCategories.map((category) => (
                   <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow border border-gray-100 flex flex-col items-start h-[200px]">
                     <h3 className="text-lg font-semibold text-gray-900 mb-4">{category.title}</h3>
                     <div className="flex flex-wrap gap-2">
