@@ -41,12 +41,6 @@ export const Projects = () => {
       link: "https://github.com/carissabb/BTApp"
     },
     {
-      title: "Bloomberg Tech Lab: Virginia Tech",
-      description: "Collaborated with Bloomberg engineers to build an open-source portfolio manager in Jupyter Notebooks. Enhanced programming and critical thinking skills while receiving valuable mentorship from industry experts.",
-      technologies: ["Python", "Jupyter Notebook", "Docker"],
-      link: "#"
-    },
-    {
       title: "Minecraft Mod",
       description: "Created a new ore using Java with full functionality for crafting tools and armor.",
       technologies: ["Java", "Eclipse"],

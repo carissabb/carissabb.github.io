@@ -4,9 +4,20 @@ import girlsWhoCodeImg from '../assets/gwc.png';
 import libertyImg from '../assets/libertyLogo.png';
 import luCyberImg from '../assets/luCyber.png';
 import summitCTFImg from '../assets/summitCTF.jpeg';
+import bloombergImg from '../assets/Bloomberg_Logo.png';
+import vtechImg from '../assets/vtLogo.png';
+import bbergPoster from '../assets/Bloomberg_Poster.png';
+
 
 export const Involvement = () => {
   const involvement = [
+    {
+      title: "Cybersecurity for Industry 4.0 Workshop",
+      role: "Workshop Participant",
+      association: "Virginia Tech",
+      location: "Blacksburg, VA",
+      period: "July 14-18, 2025",
+    },
     {
       title: "CyberVT",
       role: "Member",
@@ -21,7 +32,13 @@ export const Involvement = () => {
       location: "Blacksburg, VA",
       period: "April 12-13, 2025",
     },
-
+    {
+      title: "Bloomberg Tech Lab: Virginia Tech",
+      role: "Workshop Participant",
+      association: "Virginia Tech",
+      location: "Blacksburg, VA",
+      period: "September 18-19, 2024",
+    },
     {
       title: "Girls Who Code LU",
       role: "President/Founder",
@@ -46,11 +63,13 @@ export const Involvement = () => {
   ];
 
   const involvementImages: { [key: string]: string } = {
-    CyberVT: cybervtImg,
+    "CyberVT": cybervtImg,
     "Girls Who Code LU": girlsWhoCodeImg,
     "C++ Tutor": libertyImg,
     "Cybersecurity Club": luCyberImg,
     "SummitCTF Competition": summitCTFImg,
+    "Bloomberg Tech Lab: Virginia Tech": bloombergImg,
+    "Cybersecurity for Industry 4.0 Workshop": vtechImg,
   };
 
   return (
@@ -97,7 +116,15 @@ export const Involvement = () => {
                         className="w-16 h-16 object-contain rounded-lg"
                       />
                     </a>
-                  ) : (
+                    ) : involvement.title === "Bloomberg Tech Lab: Virginia Tech" ? (
+                      <a href={bbergPoster} target="_blank" rel="noopener noreferrer">
+                        <img
+                          src={involvementImages[involvement.title]}
+                          alt={`${involvement.title} Logo`}
+                          className="w-16 h-16 object-contain rounded-lg"
+                        />
+                      </a>
+                    ) : (
                     <img
                       src={involvementImages[involvement.title]}
                       alt={`${involvement.title} Logo`}
