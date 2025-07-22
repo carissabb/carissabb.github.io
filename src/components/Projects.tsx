@@ -43,7 +43,7 @@ export const Projects = () => {
       title: "Minecraft Mod",
       description: "Created a new ore using Java with full functionality for crafting tools and armor.",
       technologies: ["Java", "Eclipse"],
-      link: "#"
+      link: "https://github.com/carissabb/pink-craft-mc-mod"
     }
   ];
 
