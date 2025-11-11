@@ -19,7 +19,7 @@ export const Projects = () => {
   const projects = [
     {
       title: "Social Media Bot Detection Network Simulation",
-      description: "Simulated Wi-Fi and 5G network traffic in ns-3 to distinguish human from bot behavior on social media networks",
+      description: "Simulated Wi-Fi and 5G network traffic in ns-3 to distinguish human from bot behavior on a social media network",
       technologies: ["C++", "ns3"],
       link: ""
     },
