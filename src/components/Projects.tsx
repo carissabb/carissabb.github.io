@@ -12,36 +12,50 @@ import androidStudioImg from '../assets/android-studio.svg';
 import dockerImg from '../assets/docker.svg';
 import eclipseImg from '../assets/eclipse.svg';
 import poster from '../assets/DLposter.pdf';
+import ns3Img from '../assets/ns3.png';
+import ibmImg from '../assets/ibm.svg';
 
 export const Projects = () => {
   const projects = [
     {
+      title: "Social Media Bot Detection Network Simulation",
+      description: "Simulated Wi-Fi and 5G network traffic in ns-3 to distinguish human from bot behavior on social media",
+      technologies: ["C++", "ns3"],
+      link: ""
+    },
+    {
+      title: "Finley - Your Financially Smart AI Friend | IBM SkillsBuild",
+      description: "Built an AI-powered financial assistant with IBM watsonx to help young adults manage spending and improve financial literacy",
+      technologies: ["Python", "IBM"],
+      link: ""
+    },
+    {
       title: "Personalized Linguistic Embeddings for Predicting SMS Authorship and Personality Traits",
-      description: "Used NLP embedding to analyze user text messages for uniqueness to identify distinct linguistic patterns and predict Big Five personality traits.",
+      description: "Used NLP embeddings on SMS data to analyze linguistic uniqueness and predict authorship and personality traits",
       technologies: [],
       link: poster
     },
     {
       title: "Immersive VR Privacy & Security Awareness Experience",
-      description: "Developed policy-guided VR rooms using C# in Unity to conduct research on user awareness of data collection.",
+      description: "Developed policy-guided VR rooms using C# in Unity to conduct research on user awareness of data collection",
       technologies: ["C#", "Unity", "GitHub"],
       link: "https://github.com/carissabb/Immersive-Privacy-and-Security-Awareness"
     },
     {
       title: "Obesity Prediction and Recommendation Model",
-      description: "Utilized Random Forest Classification to provide personalized fitness and nutritional recommendations to users.",
+      description: "Utilized Random Forest Classification to provide personalized fitness and nutritional recommendations to users",
       technologies: ["Python", "Jupyter Notebook", "GitHub"],
       link: "https://github.com/carissabb/ML-Final-Project.git"
     },
     {
       title: "Transit App",
-      description: "Developed a bus tracking mobile app in Kotlin integrating Blacksburg Transit’s API, following Agile methodologies.",
+      description: "Developed a bus tracking mobile app in Kotlin integrating Blacksburg Transit’s API, following Agile methodologies",
       technologies: ["Kotlin", "XML", "Android Studio", "GitHub"],
       link: "https://github.com/carissabb/BTApp"
     },
     {
       title: "Minecraft Mod",
-      description: "Created a new ore using Java with full functionality for crafting tools and armor.",
+      description: "Created a new ore using Java with full functionality for crafting tools and armor",
       technologies: ["Java", "Eclipse"],
       link: "https://github.com/carissabb/pink-craft-mc-mod"
     }
@@ -61,6 +75,8 @@ export const Projects = () => {
     "Android Studio": androidStudioImg,
     "Docker": dockerImg,
     "Eclipse": eclipseImg,
+    "ns3": ns3Img,
+    "IBM": ibmImg
   };
 
   return (
