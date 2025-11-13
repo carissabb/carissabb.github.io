@@ -14,20 +14,25 @@ import eclipseImg from '../assets/eclipse.svg';
 import poster from '../assets/DLposter.pdf';
 import ns3Img from '../assets/ns3.png';
 import ibmImg from '../assets/ibm.svg';
+import reactImg from '../assets/reactLogo.svg';
+import typescriptImg from '../assets/typescriptLogo.svg';
+import nodejsImg from '../assets/node-js.svg';
+import tailwindcssImg from '../assets/tailwindCSS.svg';
+import expressImg from '../assets/express.svg';
 
 export const Projects = () => {
   const projects = [
+    {
+      title: "Finley - Your Financially Smart AI Friend | IBM SkillsBuild",
+      description: "Built an AI-powered financial assistant with IBM watsonx to help young adults manage spending and improve financial literacy",
+      technologies: ["React", "Typescript", "TailwindCSS", "Node.js", "Express", "IBM"],
+      link: "https://github.com/carissabb/Finley-IBM"
+    },
     {
       title: "Social Media Bot Detection Network Simulation",
       description: "Simulated Wi-Fi and 5G network traffic in ns-3 to distinguish human from bot behavior on a social media network",
       technologies: ["C++", "ns3"],
       link: ""
-    },
-    {
-      title: "Finley - Your Financially Smart AI Friend | IBM SkillsBuild",
-      description: "Built an AI-powered financial assistant with IBM watsonx to help young adults manage spending and improve financial literacy",
-      technologies: ["Python", "IBM"],
-      link: "https://github.com/carissabb/Finley-IBM"
     },
     {
       title: "Personalized Linguistic Embeddings for Predicting SMS Authorship and Personality Traits",
@@ -76,7 +81,12 @@ export const Projects = () => {
     "Docker": dockerImg,
     "Eclipse": eclipseImg,
     "ns3": ns3Img,
-    "IBM": ibmImg
+    "IBM": ibmImg,
+    "React": reactImg,
+    "Typescript": typescriptImg,
+    "Node.js": nodejsImg,
+    "TailwindCSS": tailwindcssImg,
+    "Express": expressImg
   };
 
   return (
