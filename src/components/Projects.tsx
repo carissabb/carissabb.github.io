@@ -27,7 +27,7 @@ export const Projects = () => {
       title: "Finley - Your Financially Smart AI Friend | IBM SkillsBuild",
       description: "Built an AI-powered financial assistant with IBM watsonx to help young adults manage spending and improve financial literacy",
       technologies: ["Python", "IBM"],
-      link: ""
+      link: "https://github.com/carissabb/Finley-IBM"
     },
     {
       title: "Personalized Linguistic Embeddings for Predicting SMS Authorship and Personality Traits",
