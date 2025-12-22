@@ -19,6 +19,7 @@ import typescriptImg from '../assets/typescriptLogo.svg';
 import nodejsImg from '../assets/node-js.svg';
 import tailwindcssImg from '../assets/tailwindCSS.svg';
 import expressImg from '../assets/express.svg';
+import capstonePoster from '../assets/Capstone_Poster_2025.pdf';
 
 export const Projects = () => {
   const projects = [
@@ -32,7 +33,7 @@ export const Projects = () => {
       title: "Social Media Bot Detection Network Simulation",
       description: "Simulated Wi-Fi and 5G network traffic in ns-3 to distinguish human from bot behavior on a social media network",
       technologies: ["C++", "ns3"],
-      link: ""
+      link: capstonePoster
     },
     {
       title: "Personalized Linguistic Embeddings for Predicting SMS Authorship and Personality Traits",

@@ -94,7 +94,7 @@ export const Extracurriculars = () => {
           <div className="mx-auto mt-16 max-w-7xl">
             <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
               {extracurriculars.map((extracurriculars) => (
-                  <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow border border-gray-100 flex items-center justify-between">
+                  <div className="bg-white rounded-2xl p-6 shadow-lg transition-shadow border border-gray-100 flex items-center justify-between">
                     <div>
                       <h3 className="text-lg font-semibold text-gray-900">{extracurriculars.title}</h3>
                       <div className="px-4 py-2">

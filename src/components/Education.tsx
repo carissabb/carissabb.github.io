@@ -56,7 +56,7 @@ export const Education = () => {
           <div className="mx-auto mt-16 max-w-2xl lg:max-w-none">
             <div className="space-y-16 lg:space-y-0 lg:grid lg:grid-cols-2 lg:gap-8">
               {education.map((edu) => (
-                  <article className="relative isolate flex flex-col gap-8 lg:flex-row bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow min-h-[300px] lg:min-h-[400px]">
+                  <article className="relative isolate flex flex-col gap-8 lg:flex-row bg-white rounded-2xl p-6 shadow-lg transition-shadow min-h-[300px] lg:min-h-[400px]">
                     <div className="relative aspect-[16/9] sm:aspect-[2/1] lg:aspect-square lg:w-64 lg:shrink-0">
                       <div
                         className="absolute inset-0 rounded-2xl bg-cover bg-center ring-1 ring-inset ring-gray-900/10"

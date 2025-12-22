@@ -39,7 +39,7 @@ export const Experience = () => {
           <div className="mx-auto mt-16 max-w-3xl lg:mx-0">
             <div className="space-y-16">
               {experiences.map((experience, idx) => (
-                <article key={idx} className="relative isolate flex flex-col gap-8 lg:flex-row bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow">
+                <article key={idx} className="relative isolate flex flex-col gap-8 lg:flex-row bg-white rounded-2xl p-6 shadow-lg transition-shadow">
                   <div className="relative aspect-[16/9] sm:aspect-[2/1] lg:aspect-square lg:w-64 lg:shrink-0">
                     <div className="absolute inset-0 rounded-2xl bg-cover bg-center ring-1 ring-inset ring-gray-900/10" style={{ backgroundImage: `url(${experience.image})` }} />
                     <div className="absolute inset-0 flex items-center justify-center"></div>
