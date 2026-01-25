@@ -11,7 +11,7 @@ export const Skills = () => {
     },
     {
       title: "Tools & Frameworks",
-      skills: ["VMware Workstation", "GitHub", "Wireshark", "Docker", "PowerShell", "Linux", "Windows", "AWS"]
+      skills: ["VMware Workstation", "GitHub", "Wireshark", "Docker", "PowerShell", "Linux", "Windows"]
     }
   ];
 

@@ -1,7 +1,17 @@
 import ingersollRandImage from '../assets/ingersoll-rand.png'; 
+import dellImage from '../assets/dell-logo.png';
 
 export const Experience = () => {
   const experiences = [
+      {
+      company: "Dell Technologies",
+      role: "Inside Product Specialist 2",
+      period: "February 2026 - Present",
+      description: "Through Dell Technologies Presales Academy, develops skills as an Inside Solution Architect by collaborating with sales teams and customers to recommend, design, and implement technology solutions that support business objectives.",
+      achievements: [
+      ],
+      image: dellImage
+    },
     {
       company: "Ingersoll Rand",
       role: "IT Audit Intern",
